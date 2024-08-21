@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Explorer</title>
+</head>
+<body>
+    <div class="header">
+        <div class="head">
+            <h1>
+                <span style="color: #f23506;">explor</span><span style="color: #010101;">er</span>
+            </h1>
+        </div>
+        <div class="nav">
+            <ul>
+                <li>Hotels</li><li>Bike Rentals</li><li>Restaurants</li>
+            </ul>
+        </div>
+    </div>
+    <div class="photo">
+        <img align="right" src="images/bike.jpg">
+        <div class="welcome">
+            <p>
+                WELCOME TO EXPLORER
+            </p>
+        </div>
+        <div class="motto">
+                <p>
+                    Your Adventure 
+                    Travel Expert in 
+                    the <strong>SOUTH</strong>
+                </p>
+        </div>
+        <div class="search">
+            <select>
+                <option disabled selected>Choose</option>
+                <option value="1">Chidambaram</option>
+                <option value="2">Kumbakkonam</option>
+                <option value="3">Masinagudi</option>
+                <option value="4">Pollachi</option>
+                <option value="5">Thanjavur</option>
+                <option value="6">Tirunelveli</option>
+            </select>
+            <ion-icon name="caret-down-outline" style="position:relative; margin-left: -35px;"></ion-icon>
+        </div>
+        <div class="button">
+            <button class="explore-button">Explore</button>
+        </div>
+    </div>
+    <div class="destin">
+        <h1>Destinations</h1>
+        <p>Just for you. Because you and your bike are special to us!</p>
+    </div>
+    <div class="content">
+        <div class="destinations">
+            <div class="row1">
+                <div class="col1">
+                    <img src="images/pollachi.jpg" width="100%">
+                    <h1>Never Ending Paddy Fields and Narrow Roads</h1>
+                    <h2>Pollachi</h2>
+                    <p width="90%">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis blanditiis perferendis laudantium eveniet tempore quis, voluptatum voluptatem, nemo quam consectetur amet dolorum cumque quasi quidem recusandae, repellat nostrum dolor adipisci!</p>
+                    <button class="readmore">Read More</button>
+                </div>
+                <div class="col2">
+                    <img src="images/chidambaram.png" width="100%">
+                    <h1>Catching a Short Break at the Lotus Pond</h1>
+                    <h2>Chidambaram</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis blanditiis perferendis laudantium eveniet tempore quis, voluptatum voluptatem, nemo quam consectetur amet dolorum cumque quasi quidem recusandae, repellat nostrum dolor adipisci!</p>
+                    <button class="readmore">Read More</button>
+                </div>
+                <div class="col3">
+                    <img src="images/thanjavur.png" width="100%">
+                    <h1>Small Ride across town in mid summer heat</h1>
+                    <h2>Thanjavur</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis blanditiis perferendis laudantium eveniet tempore quis, voluptatum voluptatem, nemo quam consectetur amet dolorum cumque quasi quidem recusandae, repellat nostrum dolor adipisci!</p>
+                    <button class="readmore">Read More</button>
+                </div>
+            </div>
+            <div class="row2">
+                <div class="col4">
+                    <img src="images/tirunelveli.png" width="100%">
+                    <h1>Never Ending Paddy Fields and Narrow Roads</h1>
+                    <h2>Tirunelveli</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis blanditiis perferendis laudantium eveniet tempore quis, voluptatum voluptatem, nemo quam consectetur amet dolorum cumque quasi quidem recusandae, repellat nostrum dolor adipisci!</p>
+                    <button class="readmore">Read More</button>
+                </div>
+                <div class="col5">
+                    <img src="images/masinagudi.jpg" width="100%">
+                    <h1>Road Trip enroute the mountains and forests</h1>
+                    <h2>Masinagudi</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis blanditiis perferendis laudantium eveniet tempore quis, voluptatum voluptatem, nemo quam consectetur amet dolorum cumque quasi quidem recusandae, repellat nostrum dolor adipisci!</p>
+                    <button class="readmore">Read More</button>
+                </div>
+                <div class="col6">
+                    <img src="images/pollachi.jpg" width="100%">
+                    <h1>Fall like a little Waterfall and cut through the stones</h1>
+                    <h2>Hogenakkal</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis blanditiis perferendis laudantium eveniet tempore quis, voluptatum voluptatem, nemo quam consectetur amet dolorum cumque quasi quidem recusandae, repellat nostrum dolor adipisci!</p>
+                    <button class="readmore">Read More</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer" align="center">
+        <h1>Contact Us</h1>
+        <p>Our Sales Team will reach you out ASAP!</p>
+        <form method="POST">
+            <label>Name</label>
+            <input type="text" required>
+            <label>Your Home Town</label>
+            <input type="text" required>
+            <label>Where would you like to go</label>
+            <select>
+                <option disabled selected>Choose</option>
+                <option value="1">Chidambaram</option>
+                <option value="2">Kumbakkonam</option>
+                <option value="3">Masinagudi</option>
+                <option value="4">Pollachi</option>
+                <option value="5">Thanjavur</option>
+                <option value="6">Tirunelveli</option>
+            </select>
+            <label>Contact Number</label>
+            <input type="text" maxlength="11" required>
+            <br>
+            <button type="submit" class="submit">Submit Interest</button>
+            <br> <br> <br>
+            <footer>&copy; 2024. All rights reserved.</footer>
+        </form>
+    </div>
+</body>
+</html>

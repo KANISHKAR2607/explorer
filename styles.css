@@ -1,0 +1,189 @@
+.body{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    padding: 0 5%;
+}
+.head{
+    display: inline-block;
+} 
+.head h1 {
+    display: inline-block;
+}
+.nav{
+    display: inline-block;
+    width: 90%;
+    text-align: right;
+}
+.nav li{
+    color: #17607a;
+    display: inline-block;
+    padding:  0 20px;
+    list-style-type:none;
+}
+.nav li:hover{
+    background-color: #005780;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+}
+.photo{
+    padding-right: 0;
+    padding-left: 5%;
+}
+.welcome{
+    font-size: 20px;
+    font-weight: 600;
+    color: #17697a;
+    display: inline-block;
+    padding: 10% 3% 0 3%;
+    width: 20%; 
+}
+
+.motto{
+    padding-left: 3%;
+    display: inline-block;
+    width: 30%;
+    font-size: 40px;
+    color: #17607a;
+}
+.search{
+    width: 50%;
+    margin-left: 3%;
+    border: #006f80;
+    position: absolute;
+}
+.search select{ 
+    appearance: none;
+    background: #eeecec;
+    font-size: 24px; 
+    padding: 15px 20px; 
+    width: 70%; 
+    box-shadow: #17687a;
+
+}
+.explore-button {
+    background-color: #006280;
+    color: #efeaea;
+    padding: 15px 30px;
+    border: none;
+    font-size: 24px;
+    margin: 70px 0;
+    margin-left: 3.15%;
+}
+
+.explore-button:hover {
+    background-color: #003d60;
+}
+
+.destin{
+    color: #17647a;
+    padding-left: 8%;
+    font-weight: 600;
+    width:80%;
+}
+.destin h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.destin p{
+    font-size: 13px;
+    margin-top: -15px;
+}
+.content{
+    width:100%;
+    display: inline-block;
+}
+.destination{
+    display: inline-block;
+}
+.row1{
+    display: inline-block;
+    text-align: center;
+}
+.col1{
+    width: 26.5%;
+    display: inline-block;
+    
+}
+.col2{
+    width: 26.5%;
+    display: inline-block;
+    margin: 0 2%;
+}
+.col3{
+    width: 26.5%;
+    display: inline-block;
+}
+.row2{
+    display: inline-block;
+    text-align: center;
+}
+.content h1,.content h2, .content p{
+    text-align: left;
+}
+.col4{
+    width: 26.5%;
+    display: inline-block;
+}
+.col5{
+    width: 26.5%;
+    display: inline-block;
+    margin: 0 2%;
+}
+.col6{
+    width: 26.5%;
+    display: inline-block;
+}
+.readmore{
+    background-color: #006f80;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    font-size: 15px;
+    margin: 70px 0;
+    
+}
+.footer{
+    background-color: #c5f5ff;
+    border: #006680;
+    padding-top: 5%;
+}
+
+
+.footer {
+    & h1, & p {
+        text-align: left;
+        width: 400px;
+        color:#176b7a;
+    }
+}
+
+label {
+    font-size: 19px;
+    font-weight: 300;
+    width:400px;
+    text-align: left;
+    display: block;
+}
+input,
+select {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 400px;
+    box-sizing: border-box;
+}
+.submit{
+    background-color: #0beed0;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    font-size: 15px;
+    margin: 1%;
+    width: 150px;
+    margin-left: -230px;
+}
